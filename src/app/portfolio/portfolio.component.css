@@ -1,0 +1,36 @@
+#layer{
+  position: absolute !important;
+  left: 0% !important;
+  right: 0 !important;
+  min-height: 200vh !important;
+  z-index: 999999999999 !important;
+
+}
+
+
+.innerlayer{
+position: fixed;
+top: 300%;
+bottom: 0%;
+background-color: black;
+left: 0;
+right: 0;
+margin-right: 24px !important;
+margin-left: 24px ;
+opacity: 0 !important;
+transition: 1s opacity  ;
+
+
+}
+.this:hover .innerlayer{
+  opacity: 0.8 !important;
+  top: 0%;
+}
+
+.con{
+  position: fixed;
+  top: 29% !important;
+  bottom: 20%;
+  left: 20.4%;
+
+}

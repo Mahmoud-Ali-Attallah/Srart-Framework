@@ -1,0 +1,46 @@
+
+<section class=" d-flex flex-column justify-content-start align-items-center">
+
+  <h1 class="mt-4">CONATCT SECTION</h1>
+  <app-shape></app-shape>
+<form action="" class="mt-5 w-100 d-flex flex-column justify-content-center align-items-center">
+<div class="inp1 w-100 position-relative d-flex flex-column justify-content-center align-items-center my-2">
+  <div [class]="name" class="laber position-absolute  ">
+    <p class="text-success">user Name</p>
+  </div>
+  <input class="mb-4" type="text" name="userName" id="" placeholder="user Name" (input)="display($any($event))" >
+
+</div>
+
+<div class="inp2 w-100 position-relative d-flex flex-column justify-content-center align-items-center my-2">
+  <div [class]="age"  class="laber position-absolute ">
+    <p class="text-success">User Age</p>
+  </div>
+  <input class="mb-4" type="text" name="userAge" id="" placeholder="User Age" (input)="display($any($event))" >
+</div>
+
+<div class="inp2 w-100 position-relative d-flex flex-column justify-content-center align-items-center my-2">
+  <div [class]="email" class="laber text-white position-absolute ">
+    <p class="text-success">User Email</p>
+  </div>
+  <input class="mb-4" type="text" name="userEmail" id="" placeholder="User Email" (input)="display($any($event))" >
+</div>
+
+<div class="inp4 w-100 position-relative d-flex flex-column justify-content-center align-items-center my-2">
+  <div [class]="password" class="laber position-absolute ">
+    <p class="text-success">User Password</p>
+  </div>
+  <input class="mb-4" type="text" name="userPassword" id="" placeholder="User Password" (input)="display($any($event))">
+</div>
+
+  <div  class="laber text-start">
+    <button type="submit" class="btn btn-outline-success">Send Massage</button>
+  </div>
+</form>
+
+
+
+
+
+
+  </section>

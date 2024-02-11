@@ -1,0 +1,24 @@
+.sta{
+  position: relative ;
+  width: 500px !important;
+}
+
+.sta::before{
+  content: '';
+  position: absolute !important;
+  top: 35% !important;
+  left: 5% !important;
+  width: 200px  !important;
+  height: 10px  !important;
+  background-color: white;
+
+}
+.sta::after{
+  content: '';
+  position: absolute !important;
+  top: 35% !important;
+  right: 5% !important;
+  width: 200px  !important;
+  height: 10px  !important;
+  background-color : white !important;
+}

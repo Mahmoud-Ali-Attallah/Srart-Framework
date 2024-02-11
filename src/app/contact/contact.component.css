@@ -1,0 +1,22 @@
+input{
+  border: none !important;
+  background-color: transparent;
+  height: 50px;
+  border-bottom: 2px gray dashed !important;
+  width: 60% !important;
+  /* mask-border-outset: none; */
+}
+.laber{
+  width: 60% !important;
+
+}
+input:focus{
+  outline: none;
+}
+.laber{
+  bottom:55px ;
+}
+section{
+  min-height: 100vh;
+}
+

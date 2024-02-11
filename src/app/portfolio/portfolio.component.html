@@ -1,0 +1,80 @@
+<section class="bg-white d-flex flex-column justify-content-center align-items-center">
+
+  <h1 class="my-3">PORTFOLIO COMPONENT</h1>
+<app-shape></app-shape>
+  <div class="container my-1 ">
+   <div class="row my-4 gx-5 ">
+    <div class="this col-sm-12  col-xl-8  col-xxl-4 position-relative overflow-hidden mx-0 px-4 " >
+      <img  src="assets/sss1 (3).png" width="100%" alt="" class="rounded rounded-2" (mouseenter)="takeData($any($event))" >
+    <div class="innerlayer d-flex flex-column align-items-center justify-content-center position-absolute bg-success rounded rounded-2" (click)="diplay()" style="--bs-bg-opacity: .8;">
+      <i class="fa-solid fa-circle-plus text-white fs-1"></i>
+    </div>
+
+    </div>
+    <div class="this col-sm-12  col-xl-8  col-xxl-4 position-relative overflow-hidden mx-0 px-4 " >
+      <img  src="assets/sss2.png" width="100%" alt="" class="rounded rounded-2"  (mouseenter)="takeData($any($event))">
+    <div class="innerlayer d-flex flex-column align-items-center justify-content-center position-absolute  bg-success rounded rounded-2" (click)="diplay()" style="--bs-bg-opacity: .8;">
+      <i class="fa-solid fa-circle-plus text-white fs-1"></i>
+
+    </div>
+
+    </div>
+    <div class="this col-sm-12  col-xl-8  col-xxl-4 position-relative overflow-hidden mx-0 px-4 " >
+      <img  src="assets/sss3.png" width="100%" alt="" class="rounded rounded-2" (mouseenter)="takeData($any($event))" >
+    <div class="innerlayer d-flex flex-column align-items-center justify-content-center position-absolute  bg-success rounded rounded-2" (click)="diplay()" style="--bs-bg-opacity: .8;">
+      <i class="fa-solid fa-circle-plus text-white fs-1"></i>
+
+    </div>
+
+    </div>
+
+
+
+
+   </div>
+   <div class="row my-4 gx-5 ">
+    <div class="this col-sm-12  col-xl-8  col-xxl-4 position-relative overflow-hidden mx-0 px-4 " >
+      <img  src="assets/sss1 (3).png" width="100%" alt="" class="rounded rounded-2" (mouseenter)="takeData($any($event))" >
+    <div class="innerlayer d-flex flex-column align-items-center justify-content-center position-absolute   bg-success rounded rounded-2" (click)="diplay()" style="--bs-bg-opacity: .8;">
+      <i class="fa-solid fa-circle-plus text-white fs-1"></i>
+
+    </div>
+
+    </div>
+    <div class="this col-sm-12  col-xl-8  col-xxl-4 position-relative overflow-hidden mx-0 px-4 " >
+      <img  src="assets/sss2.png" width="100%" alt="" class="rounded rounded-2" (mouseenter)="takeData($any($event))" >
+    <div class="innerlayer d-flex flex-column align-items-center justify-content-center position-absolute  bg-success rounded rounded-2" (click)="diplay()" style="--bs-bg-opacity: .8;">
+      <i class="fa-solid fa-circle-plus text-white fs-1"></i>
+
+    </div>
+
+    </div>
+   <div class="this col-sm-12  col-xl-8  col-xxl-4 position-relative overflow-hidden mx-0 px-4 " >
+      <img  src="assets/sss3.png" width="100%" alt="" class="rounded rounded-2" (mouseenter)="takeData($any($event))" >
+    <div class="innerlayer d-flex flex-column align-items-center justify-content-center position-absolute  bg-success rounded rounded-2" (click)="diplay()" style="--bs-bg-opacity: .8;">
+      <i class="fa-solid fa-circle-plus text-white fs-1"></i>
+
+    </div>
+
+    </div>
+
+
+
+
+   </div>
+    </div>
+
+
+
+
+  <div id="layer" [class]="display" class="bg-dark " style="--bs-bg-opacity: .8;">
+    <div class="con d-flex flex-column justify-content-center align-items-center">
+      <div class="ico my-4">
+      <i (click)="hide()"  class="fa-regular fa-circle-xmark d-block fs-1 text-white"></i>
+      </div>
+        <img [src]="src" alt="" width="65%" class="d-block">
+    </div>
+
+  </div>
+
+  </section>
